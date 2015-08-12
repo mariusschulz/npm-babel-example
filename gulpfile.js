@@ -3,10 +3,10 @@ var babel = require("gulp-babel");
 
 var libDir = "lib/";
 
-gulp.task("compile", function() {
+gulp.task("babel", function() {
     return gulp.src("src/**/*.js")
         .pipe(babel())
         .pipe(gulp.dest(libDir));
 });
 
-gulp.task("default", ["compile"]);
+gulp.task("default", ["babel"]);

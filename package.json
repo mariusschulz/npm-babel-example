@@ -5,7 +5,7 @@
   "main": "lib/math.js",
   "files": ["lib/"],
   "scripts": {
-    "prepublish": "gulp compile"
+    "prepublish": "gulp babel"
   },
   "repository": {
     "type": "git",
