@@ -10,4 +10,8 @@ gulp.task("babel", function() {
         .pipe(gulp.dest(libDir));
 });
 
-gulp.task("default", ["babel"]);
+gulp.task("babel-watch", function() {
+    gulp.watch(jsFiles, ["babel"]);
+});
+
+gulp.task("default", ["babel", "babel-watch"]);
