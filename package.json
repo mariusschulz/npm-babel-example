@@ -1,7 +1,7 @@
 {
   "name": "npm-babel-example",
-  "version": "0.9.0",
-  "description": "An example of how to transpile and publish an npm package written in ECMAScript 2015.",
+  "version": "0.9.1",
+  "description": "An example of how to transpile an npm package written in ECMAScript 2015.",
   "main": "lib/math.js",
   "files": ["lib/"],
   "scripts": {
